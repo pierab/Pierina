@@ -1,0 +1,60 @@
+#header {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	background: url(../images/HERO.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	.capa1{
+		position: absolute;
+		height: 100vh;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.9);
+    }
+	.letrero {
+		margin: 1% 32%;
+		width: 32%;
+		-webkit-transform-origin: top center;
+		transform-origin: top center;
+		-webkit-animation-name: swing;
+		animation-name: swing;
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    	transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+	}
+	.navbar-default {
+		
+		background: rgba(8, 8, 8, 0.8);
+		border-color: transparent;
+		.navbar-collapse {
+			margin: 3% 22% 0% 22%;
+			ul {
+				width: 100%;
+				li {
+					width: 25%;
+					a {
+						width: 100%;
+						font-size: 30px;
+						font-weight: bolder;
+						color: $greenneon;
+					    text-align: center;
+					    text-shadow: 0px -1.5px 0px $white;
+						font-family: $navfont;
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 500px) {
+	#header{
+		height: 100vh;
+		.letrero{
+            height: 70%;
+		    width: 75%;
+		    margin: 10% 10% 0% 10%;
+   		}
+   		.navbar-default {
+   			margin-top : 20%;
+   		}		
+	}	
+}

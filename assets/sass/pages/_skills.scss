@@ -1,0 +1,77 @@
+#skills{
+	[class*="col-"]{
+		margin: 0px;
+		padding: 4% 1%;
+	}
+	.container-fluid {
+		background-color: black;
+	}
+	h2{
+		font-family: $navfont;
+			font-size: 65px;
+			color: #ff0880;
+			text-align: center;
+			margin-bottom: 4%;
+	}
+	.negro{
+		background-color: black;
+	}
+	.fuxia{
+		background-color: $fuxia;
+	}
+	.yellow{
+		background-color: $yellow;
+	}
+	.gray{
+		background-color: #080808;
+	}
+	
+	.demo-3 {
+		position: relative;
+		overflow: hidden;
+		text-decoration: none !important;
+		list-style: none !important;
+		figure {
+			margin: 0%;
+		    padding-top: 25px;
+		    position: relative;
+		    cursor: pointer;
+		    margin-left: -50px;
+			.icon {
+				color: #32FF39;
+				display: block;
+				position: relative;
+				transition: all 0.5s;
+				font-size: 5em;
+				margin: auto;
+				text-align: center;
+			}
+			figcaption {
+				top: 1%;
+				left: 0;
+				padding:1%;
+				text-align: center;
+				font-family: $fontbody;
+				backface-visibility: hidden;
+				transform: rotateY(-180deg);
+				transition: all 0.5s;
+				h3{
+					font-family: $fontbody;
+				}
+			}
+			&:hover .icon {
+				transform: rotateY(180deg);
+    		}
+    	}
+	}
+		figure.hover .icon {
+		transform: rotateY(180deg);
+	}
+	.demo-3 figure:hover figcaption, figure.hover figcaption {
+		transform: rotateY(0);
+	}
+		
+}
+.conten {
+	width: 100%
+}

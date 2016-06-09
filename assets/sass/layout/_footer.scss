@@ -1,0 +1,35 @@
+footer {
+	background: url(../../images2/footer-02.png);
+	background-attachment: fixed;
+	padding: 5% 0%;
+	color: white;
+	img {
+		width: 75%;
+		margin: auto ;
+		margin-bottom: 3%;
+	display: block;
+	}
+	.col-md-2 {
+		text-align: center;
+		.fa {
+		font-size: 50px;
+		}
+		.fa-linkedin-square , .fa.fa-facebook-square {
+			color: $fuxia;
+		}
+		.fa.fa-google-plus-square , .fa-envelope {
+			color: $yellow;
+		}
+		.fa.fa-github-square , .fa.fa-phone-square {
+			color: $greenneon;
+		}
+	}
+	span{
+		font-size: 18px;
+	}
+	p {
+		font-family: $fontbody;
+		font-size: 14px;
+	}
+	
+}

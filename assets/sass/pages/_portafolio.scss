@@ -1,0 +1,36 @@
+#portafolio {
+  padding-top: 1%;
+  background: black;
+  .title {
+    font-family: $navfont;
+    font-size: 65px;
+    color: #ff0880;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  .cdr-trabajo {
+    margin-bottom: 10%;
+    .imagen {
+      width: 90%;
+      height: 230px;
+      border: 5px solid #fff;
+      text-align: center;
+      margin: auto;
+    }
+    .redes {
+      margin-top: 3%;
+      text-align: center;
+      color: #0D0;
+      .btn {
+        border: 2px solid #0D0;
+        height: 40px;
+        width: 10%;
+        padding: 3% 2.3%;
+        i {
+          font-size: 18px;
+          color: $greenneon;
+        }
+      }
+    }
+  }
+}
