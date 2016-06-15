@@ -3,7 +3,7 @@
 #header { font-family: 'Ubuntu Condensed', sans-serif; background: url(../images/HERO.jpg) no-repeat; background-attachment: fixed; background-size: cover; height: 100vh; width: 100%; }
 #header .capa1 { position: absolute; height: 100vh; width: 100%; background: rgba(0, 0, 0, 0.9); }
 #header .letrero { margin: 1% 32%; width: 32%; -webkit-transform-origin: top center; transform-origin: top center; -webkit-animation-name: swing; animation-name: swing; -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); }
-#header .navbar-default { background: rgba(8, 8, 8, 0.8); border-color: transparent; }
+#header .navbar-default { background: rgba(8, 8, 8, 0.8); border-color: transparent; margin-top: 4%; }
 #header .navbar-default .navbar-collapse { margin: 3% 22% 0% 22%; }
 #header .navbar-default .navbar-collapse ul { width: 100%; }
 #header .navbar-default .navbar-collapse ul li { width: 25%; }
@@ -21,8 +21,6 @@ footer .col-md-2 .fa.fa-google-plus-square, footer .col-md-2 .fa-envelope { colo
 footer .col-md-2 .fa.fa-github-square, footer .col-md-2 .fa.fa-phone-square { color: #0D0; }
 footer span { font-size: 18px; }
 footer p { font-family: Capriola, sans-serif; font-size: 14px; }
-footer a { color: white; }
-footer a:hover { color: white; text-decoration: none; }
 
 #yo { padding: 4% 0%; background-color: black; }
 
@@ -30,12 +28,10 @@ footer a:hover { color: white; text-decoration: none; }
 
 #yo .foto { width: 80%; margin: auto; }
 
-#yo .foto img { width: 100%; border: 15px solid #ffff00; }
+#yo .foto img { width: 100%; height: 550px; border: 15px solid #ffff00; }
 
-#yo p { padding: 11% 10%; text-align: justify; line-height: 2; font-family: Capriola, sans-serif; font-size: 24px; color: white; }
+#yo p { padding: 11% 10%; text-align: justify; line-height: 2; font-family: Capriola, sans-serif; color: white; }
 
-@media screen and (max-width: 600px) { #portafolio .cdr-trabajo .imagen img { height: 100%; width: 100%; }
-  #portafolio .cdr-trabajo .redes .btn { padding: 2% !important; } }
 #skills [class*="col-"] { margin: 0px; padding: 4% 1%; }
 #skills .container-fluid { background-color: black; }
 #skills h2 { font-family: Lobster Two, cursive; font-size: 65px; color: #ff0880; text-align: center; margin-bottom: 4%; }
@@ -57,8 +53,8 @@ footer a:hover { color: white; text-decoration: none; }
 #portafolio { padding-top: 1%; background: black; }
 #portafolio .title { font-family: Lobster Two, cursive; font-size: 65px; color: #ff0880; text-align: center; margin-bottom: 4%; }
 #portafolio .cdr-trabajo { margin-bottom: 10%; }
-#portafolio .cdr-trabajo .imagen { width: 90%; height: 192px; border: 5px solid #fff; text-align: center; margin: auto; }
-#portafolio .cdr-trabajo .imagen img { width: 100%; }
+#portafolio .cdr-trabajo .imagen { width: 90%; height: 230px; border: 5px solid #fff; text-align: center; margin: auto; }
+#portafolio .cdr-trabajo .imagen img { width: 100% ; height: 100% ;}
 #portafolio .cdr-trabajo .redes { margin-top: 3%; text-align: center; color: #0D0; }
 #portafolio .cdr-trabajo .redes .btn { border: 2px solid #0D0; height: 40px; width: 10%; padding: 3% 2.3%; }
 #portafolio .cdr-trabajo .redes .btn i { font-size: 18px; color: #0D0; }
