@@ -30,7 +30,7 @@ footer p { font-family: Capriola, sans-serif; font-size: 14px; }
 
 #yo .foto img { width: 100%; height: 550px; border: 15px solid #ffff00; }
 
-#yo p { padding: 11% 10%; text-align: justify; line-height: 2; font-family: Capriola, sans-serif; color: white; }
+#yo p { padding: 11% 10%; text-align: justify; line-height: 2; font-family: Capriola, sans-serif; color: white;font-size: 24px; }
 
 #skills [class*="col-"] { margin: 0px; padding: 4% 1%; }
 #skills .container-fluid { background-color: black; }
