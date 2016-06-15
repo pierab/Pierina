@@ -31,5 +31,11 @@ footer {
 		font-family: $fontbody;
 		font-size: 14px;
 	}
-	
+	a{
+		color: white;
+		&:hover{
+			color: white;
+			text-decoration: none;
+		}
+	}
 }

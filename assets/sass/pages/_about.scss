@@ -12,13 +12,30 @@
     margin: auto; }
     #yo .foto img {
       width: 100%;
-      height: 550px;
       border: 15px solid #ffff00; }
   #yo p {
     padding: 11% 10%;
     text-align: justify;
     line-height: 2; 
     font-family: $fontbody;
+    font-size: 24px;
     color: white;
   }
 
+@media screen and (max-width:600px) {
+  #portafolio{
+    .cdr-trabajo{
+      .imagen{
+        img{
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .redes{
+        .btn{
+          padding:2% !important;
+        }
+      }
+    }
+  }
+}
