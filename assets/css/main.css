@@ -21,6 +21,8 @@ footer .col-md-2 .fa.fa-google-plus-square, footer .col-md-2 .fa-envelope { colo
 footer .col-md-2 .fa.fa-github-square, footer .col-md-2 .fa.fa-phone-square { color: #0D0; }
 footer span { font-size: 18px; }
 footer p { font-family: Capriola, sans-serif; font-size: 14px; }
+footer a { color:white;}
+footer a:hover{ color:#0D0;}
 
 #yo { padding: 4% 0%; background-color: black; }
 
