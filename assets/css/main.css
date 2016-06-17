@@ -30,7 +30,7 @@ footer a:hover{ color:#0D0;}
 
 #yo .foto { width: 80%; margin: auto; }
 
-#yo .foto img { width: 100%; height: 550px; border: 15px solid #ffff00; }
+#yo .foto img { width: 100%; height: auto; border: 15px solid #ffff00; }
 
 #yo p { padding: 11% 10%; text-align: justify; line-height: 2; font-family: Capriola, sans-serif; color: white;font-size: 24px; }
 
