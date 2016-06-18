@@ -61,4 +61,7 @@ footer a:hover{ color:#0D0;}
 #portafolio .cdr-trabajo .redes .btn { border: 2px solid #0D0; height: 40px; width: 10%; padding: 3% 2.3%; }
 #portafolio .cdr-trabajo .redes .btn i { font-size: 18px; color: #0D0; }
 
+@media only screen and (max-width: 400px) {
+	#yo .foto img {height:70px}
+}
 /*# sourceMappingURL=main.css.map */
